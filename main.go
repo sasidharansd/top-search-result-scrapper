@@ -352,7 +352,7 @@ func main() {
 	}
 	searchText := reader.Text()
 	res, err := scrapeGoogle(searchText, "com", "en", nil, 1, 1, 30, 10)
-	fmt.Println("-----------HERE ARE THE TOP 10 SEARCH RESULTS-------------")
+	fmt.Println("-----------------HERE ARE THE SEARCH RESULTS-----------------")
 	if err == nil {
 		for _, res := range res {
 			fmt.Println(res)
