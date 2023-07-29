@@ -1,6 +1,6 @@
 # top-search-result-scrapper
 
-This is a command-line tool written in Go using native packages and goquery, that allows you to scrape search results from Google. You can specify various parameters such as domain, page numbers, and more to customize your search.
+This is a command-line tool written in Go, that allows you to scrape search results from Google. You can specify various parameters such as domain, page numbers, and more to customize your search.
 
 
 ## Screenshot:
